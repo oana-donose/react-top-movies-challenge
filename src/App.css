@@ -4,6 +4,7 @@
   align-items: center;
   justify-content: center;
   text-align: center;
+  background-color:  rgba(208, 180, 198, 0.5);
 }
 
 .moviecard {
@@ -11,17 +12,23 @@
   flex-direction: row;
   width: 40%;;
   margin-top: 2em;
+  background-color: rgba(255, 255, 255, 0.25);
+  border-radius: 70px;
 }
 
 .poster {
   height: 250px;
-  margin-right: 50px;
+  margin-right: 20px;
 
 }
 
 .info-card {
   align-self: center;
   justify-self: center;
+}
+
+.plot {
+  margin-right: 30px;
 }
 /* 
 .App-logo {
